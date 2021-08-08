@@ -1,2 +1,6 @@
-mi_nombre= "cesar alejandro suarez"
-print(mi_nombre)
+def imprimeunnombre(name):
+   print(name)
+
+imprimeunnombre("HOLA MUNDO")
+
+imprimeunnombre("hola soy cesar alejandro suarez")
