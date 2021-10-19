@@ -30,6 +30,31 @@ suma= n*(n+1)/2
 print(f"la suma de los numeros de 1 a {n} es: {suma}") 
 
 
+# esta funcion hace que  adivines un numero de 1 a x como parametro y te va diciendo si el numero a adivinar es mayor o menor al que tu pones hasta encontrarlo 
+def adivinaunnumero (x):
+
+  numerosecreto=random.randint(1,x)
+  numerousuario=0
+
+  #mientras el numero a advinar y el numero del usuario no sean iguales ejecuta incansablemente
+  while(numerosecreto != numerousuario): 
+
+    
+    numerousuario=int(input(f"escriba un numero entre 1 y {x} ")) 
+    # si el numero que  dijita el usuario no esta entre el rango establecido se  rompe el while y te muestra un mensaje de numero incorrecto
+    if(numerousuario<1 or numerousuario>x):
+        print("el numero es incorrecto") 
+        break 
+    if(numerosecreto<numerousuario):
+         print("lo siento el numero es menor") 
+    elif (numerosecreto>numerousuario):
+         print("lo siento el numero es mayor")      
+    else:
+         print("felicitaciones adivinaste el numero")     
+
+adivinaunnumero(30)
+
+
 #Escribir un programa que pida al usuario su peso (en kg) y estatura (en metros), calcule el índice de masa corporal y lo almacene en una variable, y muestre por pantalla la frase Tu índice de masa corporal es <imc> donde <imc> es el índice de masa corporal calculado redondeado con dos decimales.
 
 
