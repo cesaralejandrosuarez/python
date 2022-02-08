@@ -1,0 +1,10 @@
+Nombre del afectado: 
+Rut: 
+Anexo/telefono: 
+Correo: 
+Ubicacion: 
+Descripcion del caso: corta
+*******************************************
+Proceso realizado: 
+Pruebas realizadas: 
+Usuario confirma solucion: 
